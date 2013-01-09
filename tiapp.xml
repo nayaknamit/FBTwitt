@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">uBTY3RZnJKj0Ayk37ZX4rc3XBfQCeGb2</property>
+    <property name="acs-oauth-key-production" type="string">m62TdLiDCyEG9y86Y5ZGi7CFQvwLFrqt</property>
+    <property name="acs-api-key-production" type="string">7PVbXeKRztuWbPjrfVky6DZCt8TpDSfm</property>
+    <property name="acs-oauth-secret-development" type="string">vqExkuSZvzCbVatyZ24S1DZBFLiyGPgT</property>
+    <property name="acs-oauth-key-development" type="string">QOuF3ksPWHbuK9tEsq5sWbqKaVvOnlx0</property>
+    <property name="acs-api-key-development" type="string">wHBQu201TlELFsdRRFWnhD3q3aQTpwwS</property>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.4.GA</sdk-version>
+    <id>com.diaspark.RajeevApp</id>
+    <name>RajeevApp</name>
+    <version>1.0</version>
+    <publisher>mac34</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2013 by mac34</copyright>
+    <icon>Facebook-icon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>70fd2a06-7929-4606-a396-e41f900771bb</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <property name="ti.facebook.appid">472518452800239</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules/>
+</ti:app>
